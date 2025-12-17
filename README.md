@@ -1,22 +1,22 @@
-Mein Git Lernjournal
+# Mein Git Lernjournal
 
 
-Grundlagen
+## Grundlagen
 
-1. Frage: 3 Dinge, die die Commit speichert Antwort: Der Commit speichert grundlegend 3 Dinge. Wer
-hat was verändert, was wurde verändert und warum wurde etwas verändert. Durch diese 3
-Informationen entsteht für mich, wie für alle an dem Projekt Mitarbeitenden eine nachvollziehbare
-Historik des gesamten Projektes.
+1. Frage: 3 Dinge, die die Commit speichert 
+   Antwort: Der Commit speichert grundlegend 3 Dinge.
+   Werhat was verändert, was wurde verändert und warum wurde etwas verändert. Durch diese 3
+   Informationen entsteht für mich, wie für alle an dem Projekt Mitarbeitenden eine nachvollziehbare
+   Historik des gesamten Projektes.
 
-2. Frage: Was ist der Stamm / Trunk bei der Versionskontrolle Antwort: Der Stamm ist das bereits
-bestehende Gesamtprojekt, also die Hauptversion. An welchem entweder eine oder gleichzeitig
-mehrere Personen arbeiten. Um dieses bereits bestehende Gesamtprojekt durch Änderungen nicht zu
+2. Frage: Was ist der Stamm / Trunk bei der Versionskontrolle 
+   Antwort: Der Stamm ist das bereits bestehende Gesamtprojekt, also die Hauptversion.An welchem entweder eine oder gleichzeitig mehrere Personen arbeiten. Um dieses bereits bestehende Gesamtprojekt durch Änderungen nicht zu
 gefährden, gibt es Möglichkeiten, während der fortlaufenden Bearbeitung an diesem Stamm mit
 abzweigenden Ästen (sogenannten Branches) zu arbeiten. Gleichzeitig ist es möglich, dass sich
 mehrere Personen an eigenen verschiedenen Ästen/Branches an dem Stamm/ der Hauptversion
 betätigen. Wo jede Änderung in der Commit aus Frage 1 festgehalten wird.
 
-Architektur
+## Architektur
 
 3. Frage: Was ist ein zentralisiertes Versionssystem Antwort: Das CVCS - das zentralisierte
 Versionssystem wird von den beiden Varianten weniger benutzt. Es birgt hohe Gefahren des
@@ -33,7 +33,7 @@ ganz wesentlich das lokale Arbeiten. Änderungen an dem Projekt werden im eigene
 dem Hauptprojekt gepusht.
 Beispiele für das vereilte Versionssystem sind: ekannte Beispiele: Git, Mercurial
 
-Der Workflow
+## Der Workflow
 
 5. Frage: Supermarkt-Analogie Antwort: Das Arbeitsverzeichnis, ist der Supermarkt. Und mit dem Code:
 git add werden die entsprechenden Änderungen in die Datei übernommen, aber dabei noch nicht
