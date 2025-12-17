@@ -11,3 +11,20 @@ gefährden, gibt es Möglichkeiten, während der fortlaufenden Bearbeitung an di
 abzweigenden Ästen (sogenannten Branches) zu arbeiten. Gleichzeitig ist es möglich, dass sich
 mehrere Personen an eigenen verschiedenen Ästen/Branches an dem Stamm/ der Hauptversion
 betätigen. Wo jede Änderung in der Commit aus Frage 1 festgehalten wird.
+
+Architektur
+3. Frage: Was ist ein zentralisiertes Versionssystem Antwort: Das CVCS - das zentralisierte
+Versionssystem wird von den beiden Varianten weniger benutzt. Es birgt hohe Gefahren des
+Verlustes, da sich die Hauptversion, also der Stamm mit allen Änderungen an einem einzigen Ort
+be nden. Ist dieser Ort nicht mehr zu erreichen, kann an dem Projekt nicht mehr weiter gearbeitet
+werden. Kommt es zu dem Verlust der Hauptversion, ist es unwiederbringbar verloren. Ebenso ist das
+lokale Arbeiten sehr eingeschränkt.
+Beispiele für das zentralisierte Versionssystem sind: subversion (SVN), CVS, Perforce
+4. Frage: Was ist ein verteiltes Versionssystem Antwort: Das DVCS - das verteilte Versionssystem bringt
+viele Vorteile und Sicherheiten mit sich. Jeder Projektarbeiter erhält das gesamte Projekt als Kopie für
+seine eigenen Tätigkeiten. Ein vollständiges Exemplar mit allen bisherigen Schritten. Es erleichtert
+ganz wesentlich das lokale Arbeiten. Änderungen an dem Projekt werden im eigenen Ermessen zu
+dem Hauptprojekt gepusht.
+Beispiele für das vereilte Versionssystem sind: ekannte Beispiele: Git, Mercurial
+
+
