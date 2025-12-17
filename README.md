@@ -27,4 +27,11 @@ ganz wesentlich das lokale Arbeiten. Änderungen an dem Projekt werden im eigene
 dem Hauptprojekt gepusht.
 Beispiele für das vereilte Versionssystem sind: ekannte Beispiele: Git, Mercurial
 
-
+Der Work ow
+5. Frage: Supermarkt-Analogie Antwort: Das Arbeitsverzeichnis, ist der Supermarkt. Und mit dem Code:
+git add werden die entsprechenden Änderungen in die Datei übernommen, aber dabei noch nicht
+abgespeichert. Das tatsächliche S peichern erfolgt erst mit Punkt 6. und dem Befehl: git commit
+6. Frage: Schnappschuss Einkaufswagen Antwort: Das Speichern = das Commiten von einem Projekt,
+wenn alle Änderungen vorgenommen wurden, wird auch als Schnappschuss bezeichnet. Die
+Durchführung bzw. der Code für den Schnapschuss lautet: git commit Damit werden die Änderungen
+sicher dem Repository hinzugefügt.
